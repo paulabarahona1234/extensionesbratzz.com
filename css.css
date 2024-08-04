@@ -1,0 +1,37 @@
+
+body{
+    background-image: url('../IMG/fondo2.png'); 
+    width: auto;
+    height: auto;
+}
+section {
+    text-align: center;
+    text-decoration: double;
+    font-size: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+
+nav{
+    
+        text-align: center;
+        font-family: cursive;
+        width: auto;
+        font-size: 20px;
+        font-weight:bolder;
+        height: 100px;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            padding: 0;
+        }  
+        li {
+            flex: 1 0 200px; 
+            margin: 5px;
+        }
+    
+    
+}
